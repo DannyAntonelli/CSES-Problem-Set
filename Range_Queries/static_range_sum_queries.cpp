@@ -36,10 +36,6 @@ int main() {
         prefix[i] = sum;
     }
 
-    // FOR (i, 0, n) {
-    //     cout << prefix[i] << " ";
-    // } cout << "\n";
-
     int a, b;
     FOR (i, 0, q) {
         cin >> a >> b;

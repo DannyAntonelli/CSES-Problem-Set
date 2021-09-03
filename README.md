@@ -15,4 +15,4 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 | String Algorithms     | 0 / 17  |
 | Geometry              | 0 / 7   |
 | Advanced Techniques   | 0 / 24  |
-| Introductory Problems | 0 / 77  |
+| Additional Problems   | 0 / 77  |

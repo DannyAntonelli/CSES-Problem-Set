@@ -64,7 +64,7 @@ public:
     }
 
     /**
-     * Computes the sum of the elements with index in the range [left, right]
+     * Computes the query for the elements with index in the range [left, right]
      * Time Complexity: O(1) if idempotent, otherwise O(log(N))
      * Space Complexity: O(1)
      */

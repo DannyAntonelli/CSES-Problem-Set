@@ -2,12 +2,12 @@
 My C++ solutions to some of the problems from the [CSES Problem Set](https://cses.fi/problemset/).
 
 # Current Progress
-**Problems completed**: 73 / 300
+**Problems completed**: 74 / 300
 
 | Category | Completed |
 | -------- | :-------: |
 | Introductory Problems | 19 / 19 |
-| Sorting and Searching | 15 / 35 |
+| Sorting and Searching | 16 / 35 |
 | Dynamic Programming   | 13 / 19 |
 | Graph Algorithms      | 11 / 36 |
 | Range Queries         | 7 / 19  |

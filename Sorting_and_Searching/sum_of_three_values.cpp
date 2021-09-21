@@ -21,15 +21,6 @@ void fast_io() {
     cout.tie(0);
 }
 
-ll get_products(vector<ll> k, ll x) {
-    ll res = 0;
-    for (ll num : k) {
-        res += x / num;
-        if (res < 0) return -1;
-    }
-    return res;
-}
-
 int main() {
     fast_io();
 

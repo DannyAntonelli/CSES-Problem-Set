@@ -2,7 +2,7 @@
 My C++ solutions to some of the problems from the [CSES Problem Set](https://cses.fi/problemset/).
 
 # Current Progress
-**Problems completed**: 87 / 300
+**Problems completed**: 88 / 300
 
 | Category | Completed |
 | -------- | :-------: |
@@ -11,7 +11,7 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 | Dynamic Programming   | 16 / 19 |
 | Graph Algorithms      | 13 / 36 |
 | Range Queries         | 7 / 19  |
-| Tree Algorithms       | 3 / 16  |
+| Tree Algorithms       | 4 / 16  |
 | Mathematics           | 4 / 31  |
 | String Algorithms     | 2 / 17  |
 | Geometry              | 1 / 7   |

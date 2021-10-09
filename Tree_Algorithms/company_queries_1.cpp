@@ -23,7 +23,6 @@ void fast_io() {
 
 class TreeAncestor {
     vector<vi> lift;
-    vi depth;
     int LOG2 = 20;
 
 public:
@@ -31,7 +30,6 @@ public:
         int n = parent.size();
 
         lift.resize(n, vi(LOG2));
-        depth.resize(n, 0);
 
         FOR (i, 0, n) {
             lift[i][0] = parent[i];

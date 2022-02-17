@@ -34,7 +34,7 @@ int main() {
         graph[a-1].PB({b-1, c});
     }
 
-    const ll INF = LONG_LONG_MAX;
+    const ll INF = LLONG_MAX;
     vector<ll> distance(n, INF);
     distance[0] = 0;
     
@@ -56,9 +56,7 @@ int main() {
         }
     }
  
-    FOR (i, 0, n) {
-        cout << distance[i] << " ";
-    }
+    for (ll d : distance) cout << d << " ";
  
     return 0;
 }

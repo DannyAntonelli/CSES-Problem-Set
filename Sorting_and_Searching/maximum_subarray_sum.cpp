@@ -26,31 +26,22 @@ int main() {
 
     int n;
     cin >> n;
-    int x[n];
+
+    vector<ll> x(n);
     FOR (i, 0, n) cin >> x[i];
 
     ll res = 0, curr = 0;
+    ll m = *max_element(ALL(x));
     bool flag = false;
-    int m = -(1 << 20);
 
     FOR (i, 0, n) {
-        m = max(m, x[i]);
-        if(x[i] >= 0) {
-            flag = true;
-        }
-        if (curr + x[i] > 0) {
-            curr += x[i];
-        }
-        else {
-            curr = 0;
-        }
+        if (x[i] >= 0) flag = true;
+        if (curr + x[i] > 0) curr += x[i];
+        else curr = 0;
         res = max(res, curr);
     }
     
-    if (flag) 
-        cout << res;
-    else
-        cout << m;
+    cout << (flag ? res : m);
         
     return 0;
 }

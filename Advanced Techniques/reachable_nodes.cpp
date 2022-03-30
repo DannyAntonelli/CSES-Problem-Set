@@ -23,13 +23,13 @@ void fast_io() {
 
 constexpr int MAX_N = 50001;
 
-void dfs(int u, vector<vi>& adj, vector<bitset<MAX_N>>& dp, vi& ans) {
-    if (ans[u] != 0) return;
+int dfs(int u, vector<vi>& adj, vector<bitset<MAX_N>>& dp, vi& ans) {
+    if (ans[u] != 0) return ans[u];
     for (int v : adj[u]) {
         dfs(v, adj, dp, ans);
         dp[u] |= dp[v];
     }
-    ans[u] = dp[u].count();
+    return ans[u] = dp[u].count();
 }
  
 int main() {
@@ -46,15 +46,11 @@ int main() {
     }
 
     vector<bitset<MAX_N>> dp(n);
-    vector<bool> vis(n, false);
-
     FOR (u, 0, n) dp[u][u] = 1;
 
     vi ans(n);
-    FOR (u, 0, n) {
-        dfs(u, adj, dp, ans);
-        cout << ans[u] << " ";
-    }
+    FOR (u, 0, n)
+        cout << dfs(u, adj, dp, ans) << " ";
 
     return 0;
 }

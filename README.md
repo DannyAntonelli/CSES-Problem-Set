@@ -17,5 +17,5 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 | Mathematics           |   6 / 31  |
 | String Algorithms     |   7 / 17  |
 | Geometry              |   1 / 7   |
-| Advanced Techniques   |   3 / 24  |
-| Additional Problems   |   1 / 77  |
+| Advanced Techniques   |   2 / 24  |
+| Additional Problems   |   2 / 77  |

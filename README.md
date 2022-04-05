@@ -4,7 +4,7 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 
 # Current Progress
 
-**Problems completed**: 146 / 300
+**Problems completed**: 147 / 300
 
 | Category              | Completed |
 | --------------------- | :-------: |
@@ -16,6 +16,6 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 | Tree Algorithms       |   9 / 16  |
 | Mathematics           |  14 / 31  |
 | String Algorithms     |   7 / 17  |
-| Geometry              |   1 / 7   |
+| Geometry              |   2 / 7   |
 | Advanced Techniques   |   2 / 24  |
 | Additional Problems   |   2 / 77  |

@@ -27,7 +27,7 @@ int main() {
     int n;
     cin >> n;
 
-    vector<ll> a(n);
+    vi a(n);
     FOR (i, 0, n) cin >> a[i];
 
     int ans = 0;

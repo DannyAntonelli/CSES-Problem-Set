@@ -21,28 +21,6 @@ void fast_io() {
     cout.tie(0);
 }
 
-void init_successor_graph(vector<vi>& next) {
-    int n = next.size();
-    int m = next[0].size();
-
-    FOR (j, 1, m) {
-        FOR (i, 0, n) {
-            int prev = next[i][j - 1];
-            next[i][j] = next[prev][j - 1];
-        }
-    }
-}
-
-int get_kth_successor(int x, int k, vector<vi>& next) {
-    int m = next[0].size();
-
-    for (int i = 0; i < m; ++i)
-        if (k & (1 << i))
-            x = next[x][i];
-
-    return x;
-}
-
 int main() {
     fast_io();
 
@@ -53,12 +31,24 @@ int main() {
 
     vector<vi> next(n, vi(m));
     FOR (i, 0, n) cin >> next[i][0], --next[i][0];
-    init_successor_graph(next);
+    
+    FOR (j, 1, m) {
+        FOR (i, 0, n) {
+            int prev = next[i][j - 1];
+            next[i][j] = next[prev][j - 1];
+        }
+    }
 
     while (q--) {
         int x, k;
         cin >> x >> k;
-        cout << get_kth_successor(x - 1, k, next) + 1 << "\n";
+        --x;
+
+        for (int i = 0; i < m; ++i)
+            if (k & (1 << i))
+                x = next[x][i];
+        
+        cout << x + 1 << "\n";
     }
 
     return 0;

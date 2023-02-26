@@ -46,7 +46,7 @@ int main() {
 
     int res = 0;
     FOR (i, 0, n) {
-        FOR (j, 0, n) {
+        FOR (j, 0, m) {
             if (graph[i][j]) {
                 visit(i, j, n, m);
                 ++res;

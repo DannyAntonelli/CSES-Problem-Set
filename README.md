@@ -4,7 +4,7 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 
 # Current Progress
 
-**Problems completed**: 170 / 300
+**Problems completed**: 172 / 300
 
 | Category              | Completed |
 | --------------------- | :-------: |

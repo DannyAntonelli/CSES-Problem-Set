@@ -4,12 +4,12 @@ My C++ solutions to some of the problems from the [CSES Problem Set](https://cse
 
 # Current Progress
 
-**Problems completed**: 172 / 300
+**Problems completed**: 173 / 300
 
 | Category              | Completed |
 | --------------------- | :-------: |
 | Introductory Problems |  19 / 19  |
-| Sorting and Searching |  31 / 35  |
+| Sorting and Searching |  32 / 35  |
 | Dynamic Programming   |  18 / 19  |
 | Graph Algorithms      |  26 / 36  |
 | Range Queries         |  18 / 19  |
